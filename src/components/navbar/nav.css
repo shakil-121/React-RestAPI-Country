@@ -9,7 +9,26 @@
     color: #4200f7;  
     margin: 10px 10px;
     border-radius: 10px;
-    filter: drop-shadow(5px 5px 10px #928f8f); 
+    filter: drop-shadow(5px 5px 10px #4c00ff); 
     font-family: 'Rubik Moonrocks', cursive;
 
+} 
+.header nav a{ 
+    text-decoration: none; 
+    direction: flex; 
+    margin-left: 20px;
+    padding: 8px 15px;
+    border-radius: 8px; 
+
+} 
+.header nav a:hover,.active-nav{ 
+    background-color: #6f00ff; 
+    color: #fff; 
+    padding: 8px 15px; 
+    border-radius: 8px; 
+    transition: 500ms; 
+    filter: drop-shadow(1px 1px 6px #2600ff);
+}
+.header nav{
+    margin-left: 700px;
 }

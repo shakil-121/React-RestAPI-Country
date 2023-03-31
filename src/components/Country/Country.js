@@ -11,7 +11,8 @@ function Loadcountry(){
     
       return(
         <div>
-          <h1>Total Country : {countrys.length}</h1>  
+          <h1>لا إله إلا الله محمد رسول الله</h1>  
+          <h2>Total Country : {countrys.length}</h2>  
           <div className='country'>
           {
             countrys.map(country=><Country name={country.name.common} capital={country.capital}></Country>)
