@@ -1,0 +1,18 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+
+.capital{ 
+    background-color: #7600fd; 
+    padding: 10px; 
+    color: #fff; 
+    width: 380px; 
+    border-radius: 10px;  
+    font-family: 'Sniglet', cursive; 
+
+} 
+.country{ 
+    display: grid; 
+    grid-template-columns: repeat(3,1fr); 
+    gap: 4px; 
+    place-items: center;
+}
